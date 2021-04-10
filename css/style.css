@@ -99,12 +99,16 @@ header {
 
 .abt-cpy--left {
   width: 50%;
+  height: 70vh;
+  background-image: url("../img/img-abt.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.abt-cpy--left img {
+/* .abt-cpy--left img {
   width: 100%;
   border-radius: 50%;
-}
+} */
 
 .abt-cpy--right {
   width: 50%;
