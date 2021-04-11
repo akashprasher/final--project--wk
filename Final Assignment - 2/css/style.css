@@ -103,6 +103,7 @@ body {
 
 .case-study {
   background-image: url("../img/img2.jpg");
+  background-position: center;
   text-align: center;
   color: #ffffff;
 }
