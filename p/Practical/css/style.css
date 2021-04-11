@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.navigation {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #03071e;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation li {
+  list-style: none;
+  margin: 0px 20px;
+}
+
+.navigation li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f0efeb;
+  font-weight: 600;
+}
+
+.big-banner {
+  height: 700px;
+  background-image: url("../img/bigbanner.jpeg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  text-align: center;
+  color: #ffffff;
+}
+
+.text-box h2 {
+  font-size: 30px;
+  color: #ffd166;
+}
+
+.text-box h1 {
+  font-size: 100px;
+}
+
+.text-box p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin: 15px 0px 30px 0px;
+}
+
+.btn {
+  background-color: #ffd166;
+  color: #03071e;
+  padding: 15px 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.row-sepration {
+  display: flex;
+  align-items: center;
+  padding: 70px 0px;
+}
+
+.col-left {
+  width: 50%;
+  background-image: url("../img/about1.jpeg");
+  height: 500px;
+  background-position: center;
+  align-items: center;
+}
+
+.col-right {
+  width: 50%;
+  text-align: center;
+  padding: 0px 40px;
+  color: #000c50;
+}
+
+.col-right p {
+  padding-top: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+.small-banner {
+  background-image: url("../img/section-bg.webp");
+  background-position: center;
+  text-align: center;
+}
+
+.sml-bn-text-box {
+  padding: 100px 0px;
+  color: #ffffff;
+}
+
+.sml-bn-text-box h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.sml-bn-text-box p {
+  padding: 25px 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  max-width: 650px;
+  margin: 0px auto;
+  line-height: 2.5;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 35px 0px;
+}
