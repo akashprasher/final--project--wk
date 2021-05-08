@@ -48,6 +48,7 @@ nav {
 }
 
 .nav-links ul li a {
+    color: #583d72;
     text-decoration: none;
     color: 583d72;
     font-size: 18px;
