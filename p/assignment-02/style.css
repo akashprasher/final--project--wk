@@ -1,0 +1,73 @@
+/* importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url(./bg.jpg);
+  background-size: cover;
+}
+.mainSection {
+  height: 786px;
+}
+
+.main-div {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-div {
+  width: 100%;
+  text-align: center;
+}
+
+.left-div img {
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-div {
+  width: 100%;
+  padding: 40px;
+  color: #0f5677;
+}
+
+.right-div h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.right-div p {
+  font-size: 20px;
+}
+
+#usrName {
+  font-size: 60px;
+  color: #0f5677;
+}
+
+/* Breakpoint */
+@media (max-width: 900px) {
+  .ain-section {
+    height: auto;
+  }
+  .main-div {
+    display: block;
+  }
+
+  .left-div img {
+    margin-top: 10px;
+    height: 300px;
+  }
+
+  #usrName {
+    font-size: 50px;
+  }
+}
