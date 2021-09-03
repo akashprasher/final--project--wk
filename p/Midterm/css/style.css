@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.links {
+  display: flex;
+}
+
+.links a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.links a:hover {
+  font-weight: 600;
+  color: #ca0043;
+  text-decoration: none;
+}
+
+.links li {
+  list-style: none;
+}
+
+.link {
+  margin-left: 10px;
+}
+
+.banner {
+  height: 700px;
+  background-image: url("../images/banner1.jpg");
+  background-size: cover;
+  color: #f0f0f0;
+}
+
+.outer-box {
+  height: 700px;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-heading {
+  font-size: 50px;
+}
+
+.para {
+  font-size: 14px;
+}
+
+.banner-button {
+  margin-top: 10px;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #ca0043;
+  border: none;
+  border-radius: 4px;
+}
+
+.banner-button:hover {
+  background-color: #9e0136;
+}
+
+.outer-box-about {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.inner-box-left,
+.inner-box-right {
+  width: 50%;
+  padding: 10px;
+}
+
+.about-image {
+  width: 100%;
+}
+
+.black-yellow {
+  height: 150px;
+}
+
+.black-box {
+  position: relative;
+  border-radius: 10px;
+  height: 130px;
+  width: 100%;
+  background-color: #000;
+}
+
+.yellow-box {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: #ff0;
+  right: 100px;
+  bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .banner,
+  .outer-box {
+    height: 500px;
+  }
+
+  .banner-heading {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner,
+  .outer-box {
+    height: 300px;
+  }
+
+  .outer-box-about {
+    flex-direction: column-reverse;
+    padding: 5px;
+  }
+
+  .inner-box-left,
+  .inner-box-right {
+    width: 100%;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,23 @@
+.yellow-box {
+  background-color: #ffff00;
+  height: 100vh; /* 500px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teal-box {
+  position: relative;
+  background-color: #008080;
+  height: 400px;
+  width: 1000px;
+}
+
+.black-box {
+  position: absolute;
+  background-color: #000000;
+  height: 50px;
+  width: 50px;
+  bottom: 100px;
+  right: 100px;
+}
