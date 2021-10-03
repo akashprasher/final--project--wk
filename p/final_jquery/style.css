@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Common for all questions */
+#question-one,
+#question-two,
+#question-three,
+#question-four {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Question One */
+#question-one {
+  background-color: #98ff43;
+}
+
+#question-one div {
+  text-align: center;
+}
+
+.bg-1 {
+  background-color: #43ffd6 !important;
+}
+
+.btn-1 {
+  margin: 15px 0px;
+  padding: 7px 15px;
+  background-color: #3c008a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-1:hover {
+  background-color: #3c008ad5;
+}
+
+/* Question Two */
+#question-two {
+  background-color: #ff8843;
+}
+
+#question-accordion {
+  padding: 0px 200px;
+  width: 100%;
+}
+
+#question-accordion h3 {
+  background-color: #98ff43;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+#question-accordion p {
+  background-color: #ddd;
+  padding: 20px 10px;
+}
+
+/* Question Three */
+
+#question-three {
+  background-color: #439bff;
+}
+
+#question-three div {
+  text-align: center;
+}
+
+.btn-2 {
+  margin: 15px 0px;
+  padding: 7px 15px;
+  background-color: #d4007c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-2:hover {
+  background-color: #d4007cda;
+}
+
+/* Question Four */
+#question-four {
+  background-color: #d4007c;
+  color: #fff;
+}
