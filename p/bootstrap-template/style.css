@@ -9,3 +9,51 @@
 body{
     font-family: 'Poppins', sans-serif !important;
 }
+
+.bg-dark {
+    background-color: #101213 !important;
+}
+
+.navbar-brand {
+    font-family: 'Righteous', cursive;
+    color: #e55718 !important;
+}
+
+.btn-outline-success{
+    color: #e27140;
+    border-color: #e27140;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #e27140;
+    border-color: #e27140;
+}
+
+.banner{
+    background-color: #101213;
+    min-height: 94vh;
+}
+
+.banner-inner{
+    align-items: center;
+    height: 94vh;
+}
+
+.banner h1{
+    color: #f8f9fa;
+}
+
+.banner p, .banner h4{
+    color: #b8b8b8;
+}
+
+.btn-primary{
+    border: none;
+    background-color: #e55718;
+}
+
+.btn-primary:hover{
+    border: none;
+    background-color: #e27140;
+}
