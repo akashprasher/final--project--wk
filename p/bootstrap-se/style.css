@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.bg-img-1,
+.bg-img-2,
+.bg-img-3,
+.bg-img-4,
+.bg-img-5,
+.bg-img-6 {
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.bg-img-1 {
+  background-image: url(https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=940);
+}
+
+.bg-img-2 {
+  background-image: url(https://images.pexels.com/photos/3408810/pexels-photo-3408810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=940);
+}
+
+.bg-img-3 {
+  background-image: url(https://images.pexels.com/photos/3384815/pexels-photo-3384815.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=940);
+}
+
+.bg-img-4 {
+  background-image: url(https://images.pexels.com/photos/2948924/pexels-photo-2948924.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=940);
+}
+
+.bg-img-5 {
+  background-image: url(https://images.pexels.com/photos/3056574/pexels-photo-3056574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=940);
+}
+
+.bg-img-6 {
+  background-image: url(https://images.pexels.com/photos/4124073/pexels-photo-4124073.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=940);
+}
