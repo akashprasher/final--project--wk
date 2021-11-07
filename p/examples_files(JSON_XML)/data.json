@@ -1,0 +1,48 @@
+{
+  "restaurants": {
+    "restaurant": [
+      {
+        "name": "The Leaf",
+        "location": "Sydney",
+        "cuisine": "Australian",
+        "founded": 1948
+      },
+      {
+        "name": "The Guitt",
+        "location": "Camden",
+        "cuisine": "Ethiopian",
+        "founded": 1980
+      },
+      {
+        "name": "Lavi La",
+        "location": "Paris",
+        "cuisine": "French",
+        "founded": 1962
+      },
+      {
+        "name": "Hounyr Grand",
+        "location": "Lyon",
+        "cuisine": "Hawaiian",
+        "founded": 1925
+      },
+      {
+        "name": "Felluam",
+        "location": "Toronto",
+        "cuisine": "Indian",
+        "founded": 1892
+      },
+      {
+        "name": "Kiaruon",
+        "location": "Vancouver",
+        "cuisine": "Italian",
+        "founded": 1964
+      },
+      {
+        "name": "Res. Hudder",
+        "location": "Chicago",
+        "cuisine": "Japanese",
+        "founded": 1954
+      }
+    ]
+  }
+}

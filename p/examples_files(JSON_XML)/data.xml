@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurants>
+    <restaurant>
+        <name>The Leaf</name>
+        <location>Sydney</location>
+        <cuisine>Australian</cuisine>
+        <founded>1948</founded>
+    </restaurant>
+    <restaurant>
+        <name>The Guitt</name>
+        <location>Camden</location>
+        <cuisine>Ethiopian</cuisine>
+        <founded>1980</founded>
+    </restaurant>
+    <restaurant>
+        <name>Lavi La</name>
+        <location>Paris</location>
+        <cuisine>French</cuisine>
+        <founded>1962</founded>
+    </restaurant>
+    <restaurant>
+        <name>Hounyr Grand</name>
+        <location>Lyon</location>
+        <cuisine>Hawaiian</cuisine>
+        <founded>1925</founded>
+    </restaurant>
+    <restaurant>
+        <name>Felluam</name>
+        <location>Toronto</location>
+        <cuisine>Indian</cuisine>
+        <founded>1892</founded>
+    </restaurant>
+    <restaurant>
+        <name>Kiaruon</name>
+        <location>Vancouver</location>
+        <cuisine>Italian</cuisine>
+        <founded>1964</founded>
+    </restaurant>
+    <restaurant>
+        <name>Res. Hudder</name>
+        <location>Chicago</location>
+        <cuisine>Japanese</cuisine>
+        <founded>1954</founded>
+    </restaurant>
+</restaurants>
