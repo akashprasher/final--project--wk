@@ -1,0 +1,41 @@
+{
+  "students": {
+    "student": [
+      {
+        "firstname": "Marry",
+        "lastname": "Reusk",
+        "id": "2589",
+        "age": "17",
+        "admission": 2017
+      },
+      {
+        "firstname": "Harry",
+        "lastname": "Tom",
+        "id": "2489",
+        "age": "18",
+        "admission": 2016
+      },
+      {
+        "firstname": "Keusv",
+        "lastname": "Rum",
+        "id": "2187",
+        "age": "16",
+        "admission": 2017
+      },
+      {
+        "firstname": "Kevin",
+        "lastname": "Eden",
+        "id": "2959",
+        "age": "19",
+        "admission": 2018
+      },
+      {
+        "firstname": "Ajay",
+        "lastname": "Kumar",
+        "id": "2479",
+        "age": "17",
+        "admission": 2019
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cars>
+  <car>
+    <name>Swift</name>
+    <brand>Suzuki</brand>
+    <rpm>2589</rpm>
+    <year>2015</year>
+    <variant>XDS</variant>
+  </car>
+  <car>
+    <name>har</name>
+    <brand>Mahindra</brand>
+    <rpm>3598</rpm>
+    <year>2021</year>
+    <variant>Premium</variant>
+  </car>
+  <car>
+    <name>City</name>
+    <brand>Honda</brand>
+    <rpm>1980</rpm>
+    <year>2014</year>
+    <variant>Pro</variant>
+  </car>
+  <car>
+    <name>Q7</name>
+    <brand>Audi</brand>
+    <rpm>2100</rpm>
+    <year>2017</year>
+    <variant>First</variant>
+  </car>
+  <car>
+    <name>A8</name>
+    <brand>BMW</brand>
+    <rpm>2300</rpm>
+    <year>2018</year>
+    <variant>HYT</variant>
+  </car>
+</cars>
