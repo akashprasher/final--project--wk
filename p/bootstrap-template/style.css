@@ -1,59 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Poppins', sans-serif !important;
-}
-
-.bg-dark {
-    background-color: #101213 !important;
+body {
+  font-family: "Poppins", sans-serif !important;
 }
 
 .navbar-brand {
-    font-family: 'Righteous', cursive;
-    color: #e55718 !important;
+  font-family: "Righteous", cursive;
+  color: #e55718 !important;
 }
 
-.btn-outline-success{
-    color: #e27140;
-    border-color: #e27140;
+.btn-outline-success {
+  color: #e27140;
+  border-color: #e27140;
 }
 
 .btn-outline-success:hover {
-    color: #fff;
-    background-color: #e27140;
-    border-color: #e27140;
+  color: #fff;
+  background-color: #e27140;
+  border-color: #e27140;
 }
 
-.banner{
-    background-color: #101213;
-    min-height: 94vh;
+.banner {
+  background-color: #101213;
+}
+.banner h1 {
+  color: #f8f9fa;
 }
 
-.banner-inner{
-    align-items: center;
-    height: 94vh;
+.banner p,
+.banner h4 {
+  color: #b8b8b8;
 }
 
-.banner h1{
-    color: #f8f9fa;
+.btn-primary {
+  border: none;
+  background-color: #e55718;
 }
 
-.banner p, .banner h4{
-    color: #b8b8b8;
-}
-
-.btn-primary{
-    border: none;
-    background-color: #e55718;
-}
-
-.btn-primary:hover{
-    border: none;
-    background-color: #e27140;
+.btn-primary:hover {
+  border: none;
+  background-color: #e27140;
 }
