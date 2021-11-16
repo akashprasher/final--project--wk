@@ -156,3 +156,13 @@ body {
 .imgi-8 {
     background-image: url(https://images.unsplash.com/photo-1559756961-e6c0d6bf323e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
 }
+
+/* Optional, You can delete below Lines. if you want.*/
+.imgi {
+    transition: all 0.5s;
+}
+
+.imgi:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
