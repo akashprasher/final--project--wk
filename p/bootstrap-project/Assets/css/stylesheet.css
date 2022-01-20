@@ -20,6 +20,10 @@ body {
   color: #fff;
 }
 
+.active {
+  color: #ec1023 !important;
+}
+
 .hero {
   position: relative;
   padding: 6rem 0rem;
@@ -50,16 +54,19 @@ body {
   font-weight: 600;
 }
 
-.btn-light-ct {
+.btn {
   border-radius: 2px;
   font-weight: 600;
-  border: 1px solid #000000;
-  background-color: #ffffff;
 }
 
-.btn-light-ct:hover {
+.btn-light {
+  border: 1px solid #000000 !important;
+  background-color: #ffffff !important;
+}
+
+.btn-light:hover {
   background-color: #000 !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 .hero-form {
@@ -79,21 +86,21 @@ body {
   width: auto;
 }
 
-.btn-danger-ct {
-  color: #ffffff;
-  background-color: #ec1023;
-  border-radius: 2px;
-  font-weight: 600;
+.btn-danger {
+  color: #ffffff !important;
+  background-color: #ec1023 !important;
 }
 
-.btn-danger-ct:hover {
-  color: #ffffff;
-  background-color: #000000;
+.btn-danger:hover {
+  color: #ffffff !important;
+  background-color: #000000 !important;
 }
 
 .washes {
   position: relative;
   color: #ffffff;
+  background-position: center;
+  background-size: cover;
   background-image: url("../images/wash-2.png");
 }
 
@@ -151,3 +158,53 @@ footer ul li button {
 }
 
 /* OPTIONAL */
+
+.about-hero {
+  min-height: 60vh;
+  background-image: url("../images/about-hero.jpg");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  /* align-items: center; */
+  justify-content: center;
+  width: 100%;
+}
+
+.about-hero h2,
+.contact-hero h2 {
+  color: #ffffff;
+  background-color: #00000071;
+  width: 98vw;
+}
+
+.bg-black {
+  background-color: #00000071 !important;
+  /* width: 100% */
+  color: #ffffff !important;
+}
+
+.work-hero div {
+  width: 98vw !important;
+}
+
+.contact-hero {
+  min-height: 60vh;
+  background-image: url("../images/contact-hero.jpg");
+  display: flex;
+  /* background-size: cover; */
+  background-position: center;
+  /* align-items: center; */
+  justify-content: center;
+  width: 100%;
+}
+
+.work-hero {
+  min-height: 60vh;
+  background-image: url("../images/work-hero.jpg");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  /* align-items: center; */
+  justify-content: center;
+  width: 100%;
+}
