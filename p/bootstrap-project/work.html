@@ -34,12 +34,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="./">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./about.html"
-                  >About</a
-                >
+                <a class="nav-link" aria-current="page" href="#">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="./contact.html"
@@ -48,7 +46,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link active dropdown-toggle"
                   href="#"
                   id="navbarDropdown"
                   role="button"
@@ -59,7 +57,11 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Blog</a></li>
-                  <li><a class="dropdown-item" href="#">Work With Us </a></li>
+                  <li>
+                    <a class="dropdown-item active" href="./work.html"
+                      >Work With Us
+                    </a>
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -68,94 +70,81 @@
       </nav>
     </header>
     <main>
-      <section class="points-warning p-3">
+      <section class="work-hero p-5">
         <div class="text-center">
-          <h5 class="m-0">
-            PETRO-POINTS MEMBERS COULD WIN FREE GAS FOR A YEAR.
-            <button class="ms-3 btn btn-light">FIND OUT HOW</button>
-          </h5>
+          <div class="bg-black p-5">
+            <h2 class="m-0 py-3 fw-bolder">Petro‑Canada careers.</h2>
+            <p>
+              At Petro‑Canada™, we hire engineers, tradespeople, professionals
+              and new graduates through the Suncor website. And anyone looking
+              for Petro‑Canada jobs at a gas station, truck stop or bulk plant
+              can contact the location directly to apply.
+            </p>
+          </div>
         </div>
       </section>
-
-      <section class="hero">
+      <section class="jobs py-5">
         <div class="container">
-          <div class="row">
-            <div class="hero-content hero-message col-sm-8">
-              <div>
-                <h3 class="h3-he">Win free gas for a year.</h3>
+          <div class="text-center">
+            <h2 class="fw-bolder">Jobs at our facilities.</h2>
+            <p>
+              If you’re looking for Petro‑Canada jobs, please reach out to the
+              location directly.
+            </p>
+          </div>
+          <div class="row py-4">
+            <div class="col-sm-4">
+              <img class="img-fluid" src="./Assets/images/job-1.jpg" alt="" />
+              <div class="py-2">
+                <h4>Petro‑Pass™ cardlock</h4>
                 <p>
-                  Every tank is the start of a new adventure. Petro‑Points™
-                  members are entered for a chance to win with every purchase.*
+                  Check at a nearby truck stop to ask about any retail
+                  employment opportunities.
                 </p>
-                <button class="my-3 btn btn-light">FIND OUT HOW</button>
               </div>
             </div>
-            <div class="hero-content hero-form col-sm-4">
-              <div class="text-center">
-                <img
-                  class="img-fluid mt-3"
-                  src="./Assets/images/Petro-Points logo.png"
-                  alt=""
-                />
+            <div class="col-sm-4">
+              <img class="img-fluid" src="./Assets/images/job-2.jpg" alt="" />
+              <div class="py-2">
+                <h4>Gas stations and stores</h4>
+                <p>Petro‑Canada gas station jobs visit the station to apply.</p>
               </div>
-              <form action="#" class="hero-form p-3">
-                <img src="" alt="" />
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label"
-                    >Email address</label
-                  >
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label"
-                    >Password</label
-                  >
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="exampleInputPassword1"
-                  />
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+            </div>
+            <div class="col-sm-4">
+              <img class="img-fluid" src="./Assets/images/job-3.jpg" alt="" />
+              <div class="py-2">
+                <h4>Bulk plants and distributors</h4>
+                <p>
+                  Contact our plants and wholesale distributors in your area for
+                  job openings.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="find-petro-station p-5">
-        <div class="text-center">
-          <h3 class="h3-he">Always on your way.</h3>
-          <p>
-            Visit a Petro&#8211;Canada™ for fuel for you and your car. Select
-            locations offer alternative fuel, a propane tank refill and a car
-            wash.
-          </p>
-          <button class="mt-3 btn btn-danger">
-            FIND A PETRO&#8211;CANADA STATION
-          </button>
-        </div>
-      </section>
-
-      <section class="washes py-5">
-        <div class="washes-content text-center container py-3">
-          <h3 class="h3-he">5 washes for $55.</h3>
-          <p class="">
-            That’s $10 off. Register or reload online to get a bonus wash. Offer
-            available until March 14, 2022.^
-          </p>
-          <!-- <p></p> -->
-          <img src="./Assets/images/Wash and go card.png" alt="" /><br />
-          <button class="my-3 btn btn-light">FIND OUT HOW</button>
+      <section class="jobs py-5">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="fw-bolder">Careers with Petro‑Canada.</h2>
+            <img
+              class="img-fluid"
+              src="./Assets/images/suncor-logo.svg"
+              alt=""
+            />
+            <p style="max-width: 75%; margin: auto">
+              Petro‑Canada is proudly owned by Suncor Energy Inc. Visit the
+              Suncor website for Petro‑Canada and Suncor jobs and career
+              opportunities.
+            </p>
+            <button class="mt-3 btn btn-danger">CAREERS ON SUNCOR.COM</button>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="pt-5">
+      <hr class="mb-5" />
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
@@ -217,7 +206,7 @@
       </div>
 
       <div>
-        <img class="img-fluid" src="./Assets/images/footer-tile.png" alt="" />
+        <img class="img-fluid" src="./Assets/images/footer-tile.png" />
       </div>
     </footer>
 
