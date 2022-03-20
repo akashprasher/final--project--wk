@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 16px;
+  color: black;
+  background: url("https://images.unsplash.com/photo-1647599369343-8ef99dd8b021?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-color: blue;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  height: 100px;
+  width: 960px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+nav ul li:hover {
+  color: red;
+}
+
+main {
+  margin-top: 100px;
+  background-color: white;
+  width: 960px;
+  min-height: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  width: 500px;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  width: 350px;
+  border: 1px solid red;
+  background-color: #c9c9c9;
+  padding: 30px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+form button {
+  background-color: red;
+  color: white;
+  width: 175px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer div {
+  height: 50px;
+  width: 960px;
+  margin: auto;
+  background-color: orangered;
+}
