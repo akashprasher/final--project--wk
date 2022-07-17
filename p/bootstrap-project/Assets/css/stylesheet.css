@@ -170,3 +170,22 @@ footer ul li button {
   justify-content: center;
   width: 100%;
 }
+
+.app-store{
+  height: 40px;
+  width: auto;
+}
+
+.app-store-head{
+  height: 70px;
+  width: auto;
+}
+
+.app-store-logos{
+  align-items: center;
+  justify-content: center;
+}
+
+.h5-head{
+  font-weight: 600;
+}
